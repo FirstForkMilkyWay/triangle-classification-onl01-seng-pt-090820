@@ -3,6 +3,9 @@ class Triangle
   attr_accessor :equilateral, :isosceles, :scalene
   
   def initialize(side1,side2,side3)
+    @side1 = side1
+    @side2 = side2
+    @side3 = side3
   end 
   
   def kind 
@@ -11,10 +14,10 @@ class Triangle
     #equilateral has 3 equal sides 
     
     if side1 != side2 && side1 != side3 && side2 != side3
-      return scalene 
+      return :scalene 
     elsif 
       side1 == side2 && side1 != side3 && side2 != side3 
-      return isosceles 
+      return :isosceles 
     elsif 
       side1 + side2 < side3 
         begin
@@ -24,7 +27,7 @@ class Triangle
       end
     else 
       side1 == side2 && side1 == side3 && side2 == side3 
-      return equilateral 
+      return :equilateral 
     end 
   
   
