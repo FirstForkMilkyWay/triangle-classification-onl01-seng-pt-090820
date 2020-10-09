@@ -37,6 +37,7 @@ class Triangle
       puts "TriangleError"
     end 
   end 
+end 
     
     
 end
