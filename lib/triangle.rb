@@ -36,6 +36,7 @@ class Triangle
     def message 
       puts "TriangleError"
     end 
+  end 
     
     
 end
