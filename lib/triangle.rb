@@ -33,14 +33,14 @@ class Triangle
     end 
   
   
-  class TriangleError < StandardError
-    def message 
-       puts "TriangleError"
-     end 
-   end 
- end 
+#   class TriangleError < StandardError
+#     def message 
+#       puts "TriangleError"
+#     end 
+#   end 
+# end 
 
-end a
+end 
 
 
 # || @side1 + @side2 > @side3 || @side2 + @side3 > @side1 || @side1 + @side3 > @side2
