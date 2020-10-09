@@ -31,14 +31,14 @@ class Triangle
            puts error.message
        end
     end 
+  end
   
-  
-
-
-end
   class TriangleError < StandardError
     def message 
       puts "TriangleError"
     end 
   end 
-end 
+
+end
+
+
