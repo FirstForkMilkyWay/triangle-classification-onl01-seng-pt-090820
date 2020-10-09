@@ -29,7 +29,8 @@ class Triangle
   
   class TriangleError < StandardError
     def message 
-      puts "Triangle "
+      puts "TriangleError"
+    end 
     
     
 end
