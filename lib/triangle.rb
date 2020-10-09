@@ -6,6 +6,9 @@ class Triangle
   end 
   
   def kind 
+    #scalene has no equal sides 
+    
+    if side1 +
   end 
   
   
