@@ -23,8 +23,8 @@ class Triangle
      elsif
       @side1 <= 0 && @side2 <= 0 && @side3 <= 0 
          begin
-         raise PartnerError
-       rescue PartnerError => error
+         raise TriangleError
+       rescue TriangleError => error
            puts error.message
        end
     end 
