@@ -7,7 +7,8 @@ class Triangle
   
   def kind 
     #scalene has no equal sides 
-    
+    #isosceles has 2 equal sides 
+    #
     if side1 +
   end 
   
