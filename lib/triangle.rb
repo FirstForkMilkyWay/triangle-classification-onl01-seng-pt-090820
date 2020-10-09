@@ -22,12 +22,10 @@ class Triangle
       rescue PartnerError => error
           puts error.message
       end
-      
     else 
       side1 == side2 && side1 == side3 && side2 == side3 
       return equilateral 
-    
-  end 
+    end 
   
   
   
