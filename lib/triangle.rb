@@ -19,17 +19,16 @@ class Triangle
       side1 == side2 
         return :isosceles 
     elsif 
+      side1 == side2 && side1 == side3 && side2 == side3 
+      return :equilateral 
+    else
       side1 + side2 < side3 
         begin
         raise PartnerError
       rescue PartnerError => error
           puts error.message
       end
-    else 
-      side1 == side2 && side1 == side3 && side2 == side3 
-      return :equilateral 
     end 
-  
   
   
   class TriangleError < StandardError
