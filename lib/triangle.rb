@@ -33,11 +33,11 @@ class Triangle
     end 
   
   
-#   class TriangleError < StandardError
-#     def message 
-#       puts "TriangleError"
-#     end 
-#   end 
-# end 
+  class TriangleError < StandardError
+    def message 
+      puts "TriangleError"
+    end 
+  end 
+
 end
 end 
