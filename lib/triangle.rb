@@ -17,7 +17,11 @@ class Triangle
       return isosceles 
     elsif 
       side1 + side2 < side3 
-      raiseerror 
+        begin
+        raise PartnerError
+      rescue PartnerError => error
+          puts error.message
+      end
       
     else 
       side1 == side2 && side1 == side3 && side2 == side3 
