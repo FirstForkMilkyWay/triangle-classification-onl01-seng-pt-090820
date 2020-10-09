@@ -9,7 +9,20 @@ class Triangle
     #scalene has no equal sides 
     #isosceles has 2 equal sides 
     #equilateral has 3 equal sides 
-    if side1 +
+    
+    if side1 != side2 && side1 != side3 && side2 != side3
+      return scalene 
+    elsif 
+      side1 == side2 && side1 != side3 && side2 != side3 
+      return isosceles 
+    elsif 
+      side1 + side2 < side3 
+      raiseerror 
+      
+    else 
+      side1 == side2 && side1 == side3 && side2 == side3 
+      return equilateral 
+    
   end 
   
   
